@@ -1,0 +1,14 @@
+Research and analyze which of the vulnerabilities appear to be related to the code that was deployed for the environment in this project.
+
+1. IAM policy allow full access to resources, this does not follow the rule of least privilege.
+2. The load balancer is not set up to switch HTTP requests from non-SSL to SSL (HTTPS).
+3. Port 5000 is easily connect from public IP internet.
+4. S3 buckets turn off serverside encryption and logging.
+5. AWS System Manager should strictly control EC2 instance.
+
+Bonus - provide recommendations on how to remediate the vulnerabilities.
+
+1. Should set IAM policy to readonly.
+2. Loadbalancer should limit the traffic.
+3. Decrease risks by removing unnecessary port in EC2 instance.
+4. S3 buckets turn on Logging.

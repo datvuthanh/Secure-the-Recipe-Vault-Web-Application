@@ -1,0 +1,10 @@
+Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
+
+# Poor practice 1
+
+The IAM role has full access to S3 buckets, this may high risks for security.
+
+# Poor practice 2
+
+Classless Inter-Domain Routing direct to the internet in private routes will increase the risk about any internet endpoint might be contacted by a malicious resource in the private subnet.
+

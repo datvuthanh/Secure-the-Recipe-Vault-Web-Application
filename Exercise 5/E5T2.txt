@@ -1,0 +1,22 @@
+# Identify tools that will allow you to do the following:
+
+## Scan infrastructure as code templates
+    - Use terrascan
+
+### Example vulnerability
+    - Use of proper permission
+    - Use Non-SSL/TLS
+
+##Scan AMI’s or containers for OS vulnerabilities
+    - Use Clair
+
+### Example vulnerability
+    - CVE vulnerabilities
+Example:
+CVE-2021-1387 | https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1387
+
+##Scan an AWS environment for cloud configuration vulnerabilities
+    - Use AWS Security Hub
+
+### Example vulnerability
+    - Public write and read permission in S3 buckets.
